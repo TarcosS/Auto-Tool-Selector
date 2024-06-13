@@ -1,0 +1,709 @@
+{
+    "data": [
+        {
+            "BMC": "carbide",
+            "description": "ID Grooving",
+            "geometry": {
+                "LH": 3.75,
+                "OAL": 20,
+                "RE": 0.8,
+                "S": 4,
+                "SC": "groove square",
+                "SCTY": "T",
+                "TC": "M",
+                "tool_grooveWidth": 3,
+                "tool_insertWidth": 2.7
+            },
+            "guid": "15ca2091-57ad-48fb-8a2c-867e1ec273a6",
+            "holder": {
+                "CW": 30,
+                "HAND": "R",
+                "LH": 33,
+                "MTP": "D",
+                "OAL": 125,
+                "THSC": "groove internal",
+                "W": 20
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "compensation-offset": 0,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "setup": {
+                "HAND": true,
+                "angle": 90,
+                "compensation": "tip tangent",
+                "tool_grooveCompOppositeEdge": false
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 1,
+                        "f_n_leadIn": 1,
+                        "f_n_leadOut": 1,
+                        "guid": "21af43e5-265e-4d53-a2ef-40665dd67ffd",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-constant-surface-speed": true,
+                        "use-feed-per-revolution": true,
+                        "v_c": 200
+                    }
+                ]
+            },
+            "type": "turning grooving",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "CNMT Left Hand",
+            "geometry": {
+                "INSD": 9.67194,
+                "RA": 0,
+                "RE": 0.8,
+                "S": 3.96875,
+                "SC": "C",
+                "SCTY": "T",
+                "SIZE_SPECIFICATION_MODE": "CE",
+                "TC": "M"
+            },
+            "guid": "264358b3-c02d-4914-a730-437f20f6ac0d",
+            "holder": {
+                "CW": 25,
+                "H": 20,
+                "HAND": "L",
+                "LH": 32,
+                "MTP": "D",
+                "OAL": 125,
+                "THSC": "L",
+                "W": 20,
+                "tool_roundShank": false
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "compensation-offset": 0,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "setup": {
+                "HAND": true,
+                "angle": 0,
+                "compensation": "tip tangent"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 1,
+                        "f_n_leadIn": 1,
+                        "f_n_leadOut": 1,
+                        "guid": "e50240fd-d508-4df7-9248-52cd4ff3ec98",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-constant-surface-speed": true,
+                        "use-depth-of-cut": false,
+                        "use-feed-per-revolution": true,
+                        "v_c": 200
+                    }
+                ]
+            },
+            "type": "turning general",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "ID Boring",
+            "geometry": {
+                "INSD": 9.67194,
+                "RA": 0,
+                "RE": 0.8,
+                "S": 3.96875,
+                "SC": "C",
+                "SCTY": "T",
+                "SIZE_SPECIFICATION_MODE": "CE",
+                "TC": "M"
+            },
+            "guid": "7816b8b1-d207-4f04-bbf5-e933e838161c",
+            "holder": {
+                "CW": 16,
+                "HAND": "R",
+                "LH": 25,
+                "MTP": "D",
+                "OAL": 125,
+                "THSC": "boring bar l",
+                "W": 12
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "compensation-offset": 0,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "setup": {
+                "HAND": true,
+                "angle": 90,
+                "compensation": "tip tangent"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 1,
+                        "f_n_leadIn": 1,
+                        "f_n_leadOut": 1,
+                        "guid": "cbe64347-8bd7-4ca9-b1e3-04dfee3d9820",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-constant-surface-speed": true,
+                        "use-depth-of-cut": false,
+                        "use-feed-per-revolution": true,
+                        "v_c": 200
+                    }
+                ]
+            },
+            "type": "turning boring",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "VNMT Right Hand",
+            "geometry": {
+                "INSD": 9.68703,
+                "RA": 0,
+                "RE": 0.2,
+                "S": 3.96875,
+                "SC": "V",
+                "SCTY": "T",
+                "SIZE_SPECIFICATION_MODE": "CE",
+                "TC": "M"
+            },
+            "guid": "8110768b-8154-46e7-a68a-23727df597d6",
+            "holder": {
+                "CW": 25,
+                "H": 20,
+                "HAND": "R",
+                "LH": 32,
+                "MTP": "D",
+                "OAL": 125,
+                "THSC": "L",
+                "W": 20,
+                "tool_roundShank": false
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "compensation-offset": 0,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "setup": {
+                "HAND": true,
+                "angle": 0,
+                "compensation": "tip tangent"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 1,
+                        "f_n_leadIn": 1,
+                        "f_n_leadOut": 1,
+                        "guid": "6601c8e8-db71-4c0c-9285-cf68ca475f36",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-constant-surface-speed": true,
+                        "use-depth-of-cut": false,
+                        "use-feed-per-revolution": true,
+                        "v_c": 200
+                    }
+                ]
+            },
+            "type": "turning general",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "CNMT Right Hand",
+            "geometry": {
+                "INSD": 9.67194,
+                "RA": 0,
+                "RE": 0.8,
+                "S": 3.96875,
+                "SC": "C",
+                "SCTY": "T",
+                "SIZE_SPECIFICATION_MODE": "CE",
+                "TC": "M"
+            },
+            "guid": "82f74b1b-59ad-4097-b3ea-3a39d659256c",
+            "holder": {
+                "CW": 25,
+                "H": 20,
+                "HAND": "R",
+                "LH": 32,
+                "MTP": "D",
+                "OAL": 125,
+                "THSC": "L",
+                "W": 20,
+                "tool_roundShank": false
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "compensation-offset": 0,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "setup": {
+                "HAND": true,
+                "angle": 0,
+                "compensation": "tip tangent"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 1,
+                        "f_n_leadIn": 1,
+                        "f_n_leadOut": 1,
+                        "guid": "73865d16-67e9-4882-a1dc-98c3be5f2ad2",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-constant-surface-speed": true,
+                        "use-depth-of-cut": false,
+                        "use-feed-per-revolution": true,
+                        "v_c": 200
+                    }
+                ]
+            },
+            "type": "turning general",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "VNMT Left Hand",
+            "geometry": {
+                "INSD": 9.68703,
+                "RA": 0,
+                "RE": 0.2,
+                "S": 3.96875,
+                "SC": "V",
+                "SCTY": "T",
+                "SIZE_SPECIFICATION_MODE": "CE",
+                "TC": "M"
+            },
+            "guid": "9ce3accd-52c8-415d-b0dd-b7c79db11a5a",
+            "holder": {
+                "CW": 25,
+                "H": 20,
+                "HAND": "L",
+                "LH": 32,
+                "MTP": "D",
+                "OAL": 125,
+                "THSC": "L",
+                "W": 20,
+                "tool_roundShank": false
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "compensation-offset": 0,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "setup": {
+                "HAND": true,
+                "angle": 0,
+                "compensation": "tip tangent"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 1,
+                        "f_n_leadIn": 1,
+                        "f_n_leadOut": 1,
+                        "guid": "ee3dbdfb-65dd-4774-9260-143c9f733375",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-constant-surface-speed": true,
+                        "use-depth-of-cut": false,
+                        "use-feed-per-revolution": true,
+                        "v_c": 200
+                    }
+                ]
+            },
+            "type": "turning general",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "TNMT Neutral",
+            "geometry": {
+                "INSD": 9.62371,
+                "RA": 0,
+                "RE": 0.8,
+                "S": 3.96875,
+                "SC": "T",
+                "SCTY": "T",
+                "SIZE_SPECIFICATION_MODE": "CE",
+                "TC": "M"
+            },
+            "guid": "9e8305f9-1157-4164-9133-0a841be384c8",
+            "holder": {
+                "H": 20,
+                "HAND": "N",
+                "LH": 32,
+                "MTP": "D",
+                "OAL": 125,
+                "THSC": "A",
+                "W": 20,
+                "tool_roundShank": false
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "compensation-offset": 0,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "setup": {
+                "HAND": true,
+                "angle": 0,
+                "compensation": "tip tangent"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 1,
+                        "f_n_leadIn": 1,
+                        "f_n_leadOut": 1,
+                        "guid": "115b4cb8-1dd6-4571-bcc9-5763cf6314dc",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-constant-surface-speed": true,
+                        "use-depth-of-cut": false,
+                        "use-feed-per-revolution": true,
+                        "v_c": 200
+                    }
+                ]
+            },
+            "type": "turning general",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "OD Threading",
+            "geometry": {
+                "OAL": 30,
+                "S": 4,
+                "SC": "thread iso double",
+                "SCTY": "T",
+                "TC": "M",
+                "TP": 2,
+                "maximum-thread-pitch": 2,
+                "minimum-thread-pitch": 2,
+                "thread-profile-angle": 60,
+                "thread-tip-radius": 0.28867513459481287,
+                "thread-tip-type": "round",
+                "tool_insertWidth": 4,
+                "tool_internalThread": false
+            },
+            "guid": "bb5acc46-8273-4e07-8c8a-05d24acc94e1",
+            "holder": {
+                "H": 20,
+                "HAND": "R",
+                "LH": 32,
+                "MTP": "D",
+                "OAL": 125,
+                "THSC": "thread straight",
+                "W": 20,
+                "tool_roundShank": false
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "compensation-offset": 0,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "setup": {
+                "HAND": true,
+                "angle": 0,
+                "compensation": "tip tangent"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "guid": "4ba3a0a8-5914-4cae-b84b-a2388f23e9e5",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 500.00000000000006,
+                        "name": "Default preset",
+                        "tool-coolant": "flood"
+                    }
+                ]
+            },
+            "type": "turning threading",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "OD Grooving",
+            "geometry": {
+                "OAL": 30,
+                "S": 4,
+                "SC": "groove round",
+                "SCTY": "T",
+                "TC": "M",
+                "tool_grooveWidth": 5,
+                "tool_insertWidth": 3.2
+            },
+            "guid": "c4167c09-9104-4a5b-a18f-7dadb891e935",
+            "holder": {
+                "H": 20,
+                "HAND": "R",
+                "LH": 32,
+                "MTP": "D",
+                "OAL": 125,
+                "THSC": "groove external",
+                "W": 20,
+                "tool_roundShank": false
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "compensation-offset": 0,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "setup": {
+                "HAND": true,
+                "angle": 0,
+                "compensation": "insert center"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 1,
+                        "f_n_leadIn": 1,
+                        "f_n_leadOut": 1,
+                        "guid": "37009a11-9793-4b27-8f16-99eecf558603",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-constant-surface-speed": true,
+                        "use-feed-per-revolution": true,
+                        "v_c": 200
+                    }
+                ]
+            },
+            "type": "turning grooving",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "OD Grooving",
+            "geometry": {
+                "LH": 5,
+                "OAL": 30,
+                "RE": 0.8,
+                "S": 4,
+                "SC": "groove square",
+                "SCTY": "T",
+                "TC": "M",
+                "tool_grooveWidth": 4,
+                "tool_insertWidth": 3.2
+            },
+            "guid": "cd9f0087-53c4-4470-9e89-e04e97e77d59",
+            "holder": {
+                "H": 20,
+                "HAND": "R",
+                "LH": 32,
+                "MTP": "D",
+                "OAL": 125,
+                "THSC": "groove external",
+                "W": 20,
+                "tool_roundShank": false
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "compensation-offset": 0,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "setup": {
+                "HAND": true,
+                "angle": 0,
+                "compensation": "tip",
+                "tool_grooveCompOppositeEdge": false
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 1,
+                        "f_n_leadIn": 1,
+                        "f_n_leadOut": 1,
+                        "guid": "ce39506c-69de-4551-b1ab-2beadbfd9eaa",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-constant-surface-speed": true,
+                        "use-feed-per-revolution": true,
+                        "v_c": 200
+                    }
+                ]
+            },
+            "type": "turning grooving",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "OD Threading",
+            "geometry": {
+                "OAL": 20,
+                "S": 4,
+                "SC": "thread iso triple",
+                "SCTY": "T",
+                "TC": "M",
+                "TP": 2,
+                "maximum-thread-pitch": 2,
+                "minimum-thread-pitch": 2,
+                "thread-profile-angle": 60,
+                "thread-tip-radius": 0.28867513459481287,
+                "thread-tip-type": "round",
+                "tool_insertWidth": 2,
+                "tool_internalThread": false
+            },
+            "guid": "e7d1ea3a-4dea-4c8c-83b5-7ae1bb092056",
+            "holder": {
+                "H": 20,
+                "HAND": "R",
+                "LH": 32,
+                "MTP": "D",
+                "OAL": 125,
+                "THSC": "thread straight",
+                "W": 20,
+                "tool_roundShank": false
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "compensation-offset": 0,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "setup": {
+                "HAND": true,
+                "angle": 0,
+                "compensation": "tip tangent"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "guid": "fec7bc36-7274-4504-a022-782d3da72d78",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 500.00000000000006,
+                        "name": "Default preset",
+                        "tool-coolant": "flood"
+                    }
+                ]
+            },
+            "type": "turning threading",
+            "unit": "millimeters",
+            "vendor": ""
+        }
+    ],
+    "version": 26
+}
